@@ -1,7 +1,7 @@
 import mysql.connector
 
 class Connessione:
-    def __init__(self, **config):
+    def __init__(self, **config):  
         self.miaconnession= None
         self.miaconnession = mysql.connector.connect(**config)
 

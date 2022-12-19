@@ -1,6 +1,6 @@
 import mysql.connector
 from DB import Connessione
-
+   
 try:
     film= ("select title from film")
     attore= ("select first_name, last_name from actor")

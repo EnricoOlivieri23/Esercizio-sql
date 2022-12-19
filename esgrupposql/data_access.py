@@ -1,5 +1,5 @@
 import mysql.connector
-from DB import Connessione
+from DB import Connessione  
 
 def film(lista):
     mycursor= lista.cursor()
